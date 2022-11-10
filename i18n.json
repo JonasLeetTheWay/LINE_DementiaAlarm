@@ -1,0 +1,56 @@
+{
+    "reply.chosenLang.en": "Switched to English",
+
+    "reply.receivedAudio.en": "You appear to have sent an audio message. Would you like to set it as an alarm?",
+
+
+    "reply.okay.en": "Okay",
+
+    "reply.chooseLang.en": "Which language do you prefer?",
+
+    "label.pickATime.en": "⏰ Pick a time",
+
+    "label.noThanks.en": "No thanks",
+
+    "reply.hellomsg.en": "Hello %s.",
+
+    "flex.alarm.lb_1.en": "ALARM",
+    "flex.alarm.lb_2.en": "AUDIO MESSAGE",
+    "flex.alarm.lb_3.en": "EDIT",
+    "flex.alarm.lb_4.en": "VIEW",
+
+    "keyword.lang.en": "",
+
+    "lang.en": "English",
+
+    "emoji.clock": "🕐🕜🕑🕝🕒🕞🕓🕟🕔🕠🕕🕡🕖🕢🕗🕣🕘🕤🕙🕥🕚🕦🕛🕧",
+
+    "duration.waitUntilTimer.lb_6.en":"months",
+    "duration.waitUntilTimer.lb_5.en":"weeks",
+    "duration.waitUntilTimer.lb_4.en":"days",
+    "duration.waitUntilTimer.lb_3.en":"hours",
+    "duration.waitUntilTimer.lb_2.en":"minutes",
+    "duration.waitUntilTimer.lb_1.en":"seconds",
+
+    "reply.alarmScheduled.en": "You have set alarm %s: \n%s\n\nUntil alarm:\n%s",
+    "reply.showAlarmsAvailable.en": "Here's your alarms",
+    "reply.showAlarmsToDelete.en": "Here's your alarms to delete",
+    "reply.showAlarmsRemaining.en":"Here's your remaining alarms, to stop deletion press press Exit",
+    "reply.youHaveDeleted.en":"You have deleted alarm %s: \n%s",
+    "reply.youHaveCancelled.en":"You have cancelled alarm %s: \n%s",
+    "reply.chgAlarmsOrder.en": "Changed sorting order",
+    "reply.exit.en": "Exited",
+    "reply.deletedAll.en": "You have deleted all alarms!",
+
+    "label.editAlarms.en": "Edit alarms",
+    "label.AlarmsOrder.en": "Change sorting order",
+    "label.editAllAlarms.en": "Show all and edit",
+    "label.exitButton.en": "Exit",
+    "label.cancelButton.en": "Cancel",
+    "label.deleteAll.en": "Delete all",
+
+    "warning.alarms.empty.en":"You haven't set your alarms! To set, record voice message",
+    "warning.alarms.deleted.en":"Your past alarm at %s has been deleted",
+    "warning.settingAlarm.beforeNow.en":"Invalid time! You can only set alarms in future, not in the past."
+
+}

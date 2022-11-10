@@ -1,0 +1,29 @@
+{
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "__old_serve": "firebase emulators:start --only functions",
+    "local:only": "firebase emulators:start",
+    "local": "node update_line.js local && npm run local:only",
+    "deploy": "node update_line.js deploy && npm run deploy:only",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy:only": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "@google-cloud/tasks": "^3.0.4",
+    "@line/bot-sdk": "^7.5.2",
+    "dotenv": "^16.0.3",
+    "fetch": "^1.1.0",
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^4.0.2",
+    "node-fetch-commonjs": "^3.2.4",
+    "printf": "^0.6.1"
+  },
+  "private": true
+}

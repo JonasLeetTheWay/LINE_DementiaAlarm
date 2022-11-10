@@ -1,0 +1,197 @@
+{
+    "type": "carousel",
+    "contents": [
+        {
+            "type": "bubble",
+            "body": {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                    {
+                        "type": "box",
+                        "layout": "horizontal",
+                        "contents": [
+                            {
+                                "type": "box",
+                                "layout": "vertical",
+                                "contents": [
+                                    {
+                                        "type": "text",
+                                        "text": "${emoji} ${lbs[i++]}",
+                                        "size": "xl",
+                                        "weight": "bold",
+                                        "color": "#1DB446",
+                                        "align": "end"
+                                    },
+                                    {
+                                        "type": "text",
+                                        "text": "lbs[i++]",
+                                        "size": "xxs",
+                                        "color": "#aaaaaa",
+                                        "align": "end"
+                                    }
+                                ],
+                                "spacing": "none",
+                                "justifyContent": "space-evenly",
+                                "flex": 0
+                            },
+                            {
+                                "type": "box",
+                                "layout": "vertical",
+                                "contents": []
+                            },
+                            {
+                                "type": "box",
+                                "layout": "vertical",
+                                "contents": [
+                                    {
+                                        "type": "text",
+                                        "size": "xxl",
+                                        "weight": "bold",
+                                        "align": "end",
+                                        "contents": [
+                                            {
+                                                "type": "span",
+                                                "text": "time"
+                                            },
+                                            {
+                                                "type": "span",
+                                                "text": " ",
+                                                "size": "sm"
+                                            },
+                                            {
+                                                "type": "span",
+                                                "text": "suf",
+                                                "size": "xl"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "text",
+                                        "text": "date",
+                                        "size": "xs",
+                                        "color": "#aaaaaa",
+                                        "align": "end"
+                                    }
+                                ],
+                                "flex": 0
+                            }
+                        ],
+                        "spacing": "none",
+                        "margin": "none"
+                    }
+                ],
+                "margin": "none",
+                "paddingBottom": "none"
+            },
+            "footer": {
+                "type": "box",
+                "layout": "horizontal",
+                "contents": [
+                    {
+                        "type": "button",
+                        "action": {
+                            "type": "datetimepicker",
+                            "mode": "datetime",
+                            "label": "lbs[i++]",
+                            "data": "`flex,edit=${alarmId}`"
+                        },
+                        "height": "sm"
+                    },
+                    {
+                        "type": "button",
+                        "action": {
+                            "type": "postback",
+                            "displayText": " lbs[i]",
+                            "label": "lbs[i++]",
+                            "data": "flex,viewAlarms"
+                        },
+                        "height": "sm",
+                        "flex": 0
+                    }
+                ]
+            }
+        }
+    ]
+}
+
+
+
+
+  {
+    "type": "bubble",
+    "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+            {
+                "type": "box",
+                "layout": "horizontal",
+                "contents": [
+                    {
+                        "type": "box",
+                        "layout": "vertical",
+                        "contents": [
+                            {
+                                "type": "text",
+                                "size": "xxl",
+                                "weight": "bold",
+                                "align": "end",
+                                "contents": [
+                                    {
+                                        "type": "span",
+                                        "text": "example",
+                                        "size": "xxl"
+                                    },
+                                    {
+                                        "type": "span",
+                                        "text": "example",
+                                        "size": "xxl"
+                                    },
+                                    {
+                                        "type": "span",
+                                        "text": " ",
+                                        "size": "sm"
+                                    },
+                                    {
+                                        "type": "span",
+                                        "text": "example",
+                                        "size": "xs"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "text",
+                                "text": "size": "xs",
+                                "color": "#aaaaaa",
+                                "align": "end"
+                            }
+                        ],
+                        "alignItems": "center"
+                    }
+                ],
+                "spacing": "none",
+                "margin": "none"
+            }
+        ],
+        "margin": "none",
+        "paddingBottom": "none"
+    },
+    "footer": {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+            {
+                "type": "button",
+                "action": {
+                    "type": "datetimepicker",
+                    "mode": "datetime",
+                    "label": "example",
+                    "data": "example"
+                },
+                "height": "sm"
+            }
+        ]
+    },
+    "size": "micro"
+}

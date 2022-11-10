@@ -1,0 +1,35 @@
+{
+    "size": {
+        "width": "width",
+        "height": "height"
+    },
+    "selected": true,
+    "name": "Nice richmenu",
+    "chatBarText": "tap to open",
+    "areas": [
+        {
+            "bounds": "bound0",
+            "action": {
+                "type": "postback",
+                "label": "rm-AlarmWatcher",
+                "data": "alarm-watcher"
+            }
+        },
+        {
+            "bounds": "bound1",
+            "action": {
+                "type": "postback",
+                "label": "rm-AlarmDeleter",
+                "data": "alarm-deleter"
+            }
+        },
+        {
+            "bounds": "bound2",
+            "action": {
+                "type": "postback",
+                "label": "rm-AlarmShower",
+                "data": "alarm-watcher,editAllAlarms"
+            }
+        }
+    ]
+}
