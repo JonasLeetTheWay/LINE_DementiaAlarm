@@ -1,13 +1,65 @@
 
-# My Chatbot:
+# Dementia Alarm Chatbot
+
+A new way to connect to dementia people. Want to remind patient something? Start with LINE. 
+
+Your voice message in LINE can be directly broadcasted to the speaker, which can be heard by patient easily. It comes with alarm feature, so your voice message will be automatically broadcasted to patient, at the right time. Note that, the alarm is customizable voice message... Now that is revolutionary! 
+
+Please send feedback to us, so we can keep better our customer experience, deliver better service!
 
 <img src="https://user-images.githubusercontent.com/75115433/201181405-bc23f1ce-d9d7-465f-8c1f-b47d76a80186.png" width="100"/>
 
 https://liff.line.me/1645278921-kWRPP32q/?accountId=843ffueb
 
+> only software part of development is completed, the hardware part is still a work in progress - device to receive LINE voice message
+
 > it is designed to work on smartphones only, certain features will not work on LINE desktop app
 
+## Technology:
 
+### Serverless Backend
+
+I've selected `Firebase` as the backend for 3 reasons:
+
+1. easier to set up and therefore `great for prototyping`
+2. using AWS is a bit overkill, since my project userbase is currently very small
+3. friendly NoSQL, document-oriented database
+4. manageable cloud functions
+
+#### Firestore Database
+Firebase offers a `NoSQL, document-oriented database` in Cloud Firestore. Unlike a SQL database, there are no tables or rows. Instead, you store data in documents, which are organized into collections. Allowed datatypes: string, number, boolean, map, array, null, timestamp, geopoint, reference. 
+
+Their database structure enables me to store data without having to worry about datatypes constrain and resort to converting, which allows easier data-writing and data-retrieval. A huge plus.
+
+#### Firebase Cloud Functions
+The biggest reason to use Firebase comes down to `Google cloud functions`. It is easier for developers to get started and automatically scale their applications. Unlike in the case of AWS Lambda, the number of steps required to deploy the functions is less, and the platform also installs the dependencies automatically taking the load out of developers.
+Comes packaged with an HTTP endpoint which can be used as a trigger Integration with Google Cloud big data services allows use cases like real-time stream processing and other big data use cases without much operational overhead.
+
+[Firebase empowers an app with userbase over 200k](https://ably.com/topic/scaling-firebase-realtime-database)
+
+### Debugging
+
+For debugging, I prefer to emulate cloud functions locally, since the error logging is much more in a complete-piece, rather than broken into separate lines in Cloud Logger.
+
+Unfortunately, I did not write any test that catch bugs earlier. Rather than finding out the problem while trying out the LINE chatbot myself, I could have automate the test to Google Cloud Platform, and allow them to throw me error, so the bugs can be found earlier, avoid accumulating to a huge problem where multiple bugs exist.
+
+<img src="https://user-images.githubusercontent.com/75115433/201413133-7f9e30ee-810b-43ca-950d-f51858fcfceb.png" width=500>
+
+
+<img src="https://user-images.githubusercontent.com/75115433/201413373-b1c13c22-5ab0-453e-b249-e1d30c06f24b.png" width=500>
+
+
+
+
+Performed Restful API from LINE, to gain content and activity from user. 
+
+* Designed Line Chatbot user-interface and with the following message formats:
+    * [Quick Replies](https://developers.line.biz/en/docs/messaging-api/using-quick-reply/#using-quick-reply-introduction)
+    * [Flex Message](https://developers.line.biz/en/docs/messaging-api/using-flex-message-simulator/) (customizable message with pseudo CSS layout)
+Debugging with built-in Google Cloud Platform Logging Explorer
+
+
+<br><br><br><br><br><br><br><br><br>
 
 ## Selecting language:
 |          |**Procedures**|
@@ -66,9 +118,8 @@ https://liff.line.me/1645278921-kWRPP32q/?accountId=843ffueb
 ||press "Delete Alarms" icon on Richmenu <li> delete any alarms of your choice </li><li> delete all alarms  </li> |
 |*how to...*| <details><summary>delete</summary><p><img src="https://user-images.githubusercontent.com/75115433/201305821-6eb11701-9aaf-4782-aeb0-db792c1cdb87.gif" width="250"/>  </p></details> |
 |*how to...*| <details><summary>exit</summary><p> <img src="https://user-images.githubusercontent.com/75115433/201305833-c55cd141-b06a-4c73-a270-86387ac17679.gif" width="250"/>  </p></details> |
-                                         
-#### AlarmWatcher
+#### AlarmDeleter                        
 <img src="https://user-images.githubusercontent.com/75115433/201294976-fd948a9f-0465-43f2-904e-fb37d13e3b66.png" width="100"/>
 
-#### AlarmDeleter
+#### AlarmWatcher
 <img src="https://user-images.githubusercontent.com/75115433/201294998-3a7157ff-0238-4150-8ba5-2a08d8bf5870.png" width="100"/>
