@@ -4,7 +4,7 @@
 <img src="https://user-images.githubusercontent.com/75115433/201181405-bc23f1ce-d9d7-465f-8c1f-b47d76a80186.png" width="100"/>
 
 id = 843ffueb
-<br><br>
+
 
 
 ## Selecting language:
@@ -13,7 +13,7 @@ id = 843ffueb
 || 1. type in "lang" |
 || 2. navigate floating button |
 |*how to...*| <details><summary>select language</summary><p> <img src="https://user-images.githubusercontent.com/75115433/201319528-bf8d4167-d18c-4ce3-bb89-2aa80fc91515.gif" width="250"/> </p></details>|
-<br><br>
+
 
 ## Setting up voice alarm:
 |          |**Procedures**|
@@ -22,7 +22,7 @@ id = 843ffueb
 || 2. pick a datetime for your voice alarm |
 || 3. received details about the alarm you just set|
 |*how to...*| <details><summary>record</summary><p> <img src="https://user-images.githubusercontent.com/75115433/201287327-78389f5c-90a0-4f83-a563-c55163c43a50.gif" width="250"/> </p></details>|
-<br><br>
+
 
 ## View info about recorded alarms:
 #### after recording
@@ -39,7 +39,7 @@ id = 843ffueb
 ||navigate floating button |
 |*how to...*|<details><summary>view all</summary><p> <img src="https://user-images.githubusercontent.com/75115433/201305840-256eb03b-add3-4fb7-a418-40a1c9a847ca.gif" width="250"/> </p></details> |
 |*how to...*|<details><summary>view single</summary><p> <img src="https://user-images.githubusercontent.com/75115433/201311272-acf88cc9-9f11-485b-9c92-662af1d16f89.gif" width="250"/> </p></details>|
-<br><br>
+
 
 ## Reconfiguring recorded alarms:
 
@@ -48,7 +48,7 @@ id = 843ffueb
 ||1. navigate floating button |
 ||2. <li> press "Edit" to reassign timer for the voice alarm </li> <li>press "View" to listen to recorded voice alarm </li>|
 |*how to...*|<details><summary>reconfigure</summary><p> <img src="https://user-images.githubusercontent.com/75115433/201287338-0f075bff-287f-4eb9-99d2-1f1d23af15d7.gif" width="250"/> </p></details> |
-<br><br>
+
 
 ## There's two ways to delete an alarm
 #### after recording
