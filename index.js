@@ -1177,6 +1177,9 @@ exports.LineMessAPI = functions.region(region).runWith(spec).https.onRequest(asy
         if (err instanceof line.HTTPError) {
             /* it is line sdk error */
             console.error('line HTTPError', err.originalError.response.data);
+            console.error('line replies',userObj.replies)
+            console.error('line quickReplies',userObj.quickReplies)
+
         } else {
             console.error(err);
         }
