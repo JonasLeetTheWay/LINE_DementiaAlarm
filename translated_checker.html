@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Translation Checker</title>
+    <style>
+        input.in {
+            /* background-color: #f87171; */
+            border: 0;
+            font-family: 'Courier New', Courier, monospace;
+        }
+    </style>
+</head>
+
+<body>
+    <pre id="app"></pre>
+    <pre><span id="hidden"></span></pre>
+
+    <script>
+        const LABEL_MAX = 20;
+        const RED = '#f87171';
+        const GREEN = '#bef264';
+        const GRAY = '#f3f4f6';
+
+        const editables = [];
+
+        // https://stackoverflow.com/questions/118241/calculate-text-width-with-javascript
+        // function getTextWidth(text, font) {
+        //     // re-use canvas object for better performance
+        //     const canvas = getTextWidth.canvas || (getTextWidth.canvas = document.createElement("canvas"));
+        //     const context = canvas.getContext("2d");
+        //     context.font = font;
+        //     const metrics = context.measureText(text);
+        //     return metrics.width;
+        // }
+
+        async function main() {
+            let a = await fetch('i18n_trans.json');
+            let b = await a.text();
+
+            const lines = b.split(/\r?\n/);
+            const childs = [];
+            for (const line of lines) {
+                if (childs.length != 0) {
+                    childs.push(document.createTextNode('\n'));
+                }
+                const re = /^(\s*")([^"]*?)("\s*:\s*")([^"]*?)(",?)$/;
+                /*            1     2       3          4       5 */
+                const m = re.exec(line);
+                if (m) {
+                    const index = editables.length;
+                    const placeholder = document.createElement('span');
+                    placeholder.innerText = m[4];
+                    placeholder.dataset.index = index;
+                    editables.push({
+                        key: m[2],
+                        ori_val: m[4],
+                        index: index,
+                        span: placeholder,
+                    });
+                    childs.push(document.createTextNode(m.slice(1, 4).join('')));
+                    childs.push(placeholder);
+                    childs.push(document.createTextNode(m.slice(5).join('')));
+                } else {
+                    childs.push(document.createTextNode(line));
+                }
+            }
+            for (const child of childs) {
+                app.appendChild(child);
+            }
+
+            editables.forEach(({ key, ori_val: val, index, span }) => {
+                let width;
+                const input = document.createElement('input');
+                input.value = val;
+                input.classList.add('in');
+
+                let now = 'span';
+                function setTo(type) {
+                    if (type == now) return;
+                    now = type;
+                    if (type == 'span') {
+                        input.parentNode.replaceChild(span, input);
+                    } else if (type == 'input') {
+                        span.parentNode.replaceChild(input, span);
+                    }
+                }
+                function shouldBeInput() {
+                    return key.startsWith('label') && val.length > LABEL_MAX;
+                }
+                function check() {
+                    if (shouldBeInput()) {
+                        setTo('input');
+                    } else {
+                        setTo('span');
+                    }
+                }
+                function updateinput() {
+                    val = input.value;
+                    hidden.innerText = val;
+                    width = hidden.offsetWidth;
+                    hidden.innerText = '';
+
+                    input.style.backgroundColor = !key.startsWith('label') ?
+                        GRAY
+                        : val.length > LABEL_MAX ? RED : GREEN;
+                    input.style.width = `calc(4ch + ${width}px)`;
+                    span.innerText = val;
+                }
+
+                input.oninput = updateinput;
+                input.onblur = check;
+                span.ondblclick = function (ev) {
+                    setTo('input');
+                    input.focus();
+                }
+
+                updateinput();
+                check();
+            });
+        }
+        main();
+    </script>
+</body>
+
+</html>
