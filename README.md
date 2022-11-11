@@ -6,9 +6,11 @@ npm run i
 To use my Chatbot:
 
 ID = 843ffueb
-<img src="https://user-images.githubusercontent.com/75115433/201181405-bc23f1ce-d9d7-465f-8c1f-b47d76a80186.png" width="250"/>
-Setting up voice alarm procedures:
 
+<img src="https://user-images.githubusercontent.com/75115433/201181405-bc23f1ce-d9d7-465f-8c1f-b47d76a80186.png" width="250"/>
+
+
+Setting up voice alarm procedures:
 
 |**Record Voice Alarm**                   |**After Recording**                                                              |**Relative Error**|
 |:-----------------                       |:--------------------                                                            |:----------------- |
@@ -18,7 +20,7 @@ Setting up voice alarm procedures:
 |                                         | press "View" to listen to recorded voice alarm                                  ||
 
 
-<img src="https://user-images.githubusercontent.com/75115433/201287327-78389f5c-90a0-4f83-a563-c55163c43a50.gif" width="250"/>  <img src="https://user-images.githubusercontent.com/75115433/201287338-0f075bff-287f-4eb9-99d2-1f1d23af15d7.gif" width="250"/>
+<img src="https://user-images.githubusercontent.com/75115433/201287327-78389f5c-90a0-4f83-a563-c55163c43a50.gif" width="250"/>                                          <img src="https://user-images.githubusercontent.com/75115433/201287338-0f075bff-287f-4eb9-99d2-1f1d23af15d7.gif" width="250"/>
 
 Wait for the alarm to trigger
 
