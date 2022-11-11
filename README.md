@@ -6,14 +6,12 @@ npm run i
 To use my Chatbot:
 
 ID = 843ffueb
-
-![843ffueb](https://user-images.githubusercontent.com/75115433/201181405-bc23f1ce-d9d7-465f-8c1f-b47d76a80186.png)
-
+<img src="https://user-images.githubusercontent.com/75115433/201181405-bc23f1ce-d9d7-465f-8c1f-b47d76a80186.png" width="250"/>
 Setting up voice alarm procedures:
 
 
 |**Record Voice Alarm**                   |**After Recording**                                                              |**Relative Error**|
-|:-----------------:                      |:--------------------:                                                           |:-----------------: |
+|:-----------------                       |:--------------------                                                            |:----------------- |
 | 1. Record voice message to start        | 1. Received details about the alarm you just set                                ||
 | 2. Pick a datetime for your voice alarm | press the floating button to receive more complete data about alarm             ||
 |                                         | press "Edit" to reassign timer for the voice alarm                              ||
