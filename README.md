@@ -1,17 +1,41 @@
+
 ## My Chatbot:
 
 <img src="https://user-images.githubusercontent.com/75115433/201181405-bc23f1ce-d9d7-465f-8c1f-b47d76a80186.png" width="100"/>
+<img src="https://user-images.githubusercontent.com/75115433/201305918-d807419b-5be8-4100-b79a-c22cc3187603.gif" width="100"/>
 
+<img src="https://user-images.githubusercontent.com/75115433/201305821-6eb11701-9aaf-4782-aeb0-db792c1cdb87.gif" width="100"/>
+
+<img src="https://user-images.githubusercontent.com/75115433/201305833-c55cd141-b06a-4c73-a270-86387ac17679.gif" width="100"/>
+
+<img src="https://user-images.githubusercontent.com/75115433/201305840-256eb03b-add3-4fb7-a418-40a1c9a847ca.gif" width="100"/>
 ID = 843ffueb
 <br><br><br>
 ## Setting up voice alarm procedures:
 
-|          |**Record Voice Alarm**|**After Recording - Reconfigure**|
-|:--------:|:-----------------    |:--------------------            |
-|1| record voice message to start |press the floating button to receive more complete data about alarm |
+|          |**Record Voice Alarm**|
+|:--------:|:-----------------    |
+|1| record voice message to start |
 |2| pick a datetime for your voice alarm |
 |3| received details about the alarm you just set|
-|| <details><summary>showcase</summary><p> <img src="https://user-images.githubusercontent.com/75115433/201287327-78389f5c-90a0-4f83-a563-c55163c43a50.gif" width="250"/> </p></details>| <details><summary>showcase</summary><p> <img src="https://user-images.githubusercontent.com/75115433/201287338-0f075bff-287f-4eb9-99d2-1f1d23af15d7.gif" width="250"/> </p></details> |
+|| <details><summary>showcase</summary><p> <img src="https://user-images.githubusercontent.com/75115433/201287327-78389f5c-90a0-4f83-a563-c55163c43a50.gif" width="250"/> </p></details>|
+<br><br><br>
+
+## Getting more info about recorded alarms:
+
+|**Reconfigure - After Recording**|
+|:--------------------            |
+|press the floating button to begin |
+||
+|<details><summary>showcase</summary><p> <img src="https://user-images.githubusercontent.com/75115433/201287338-0f075bff-287f-4eb9-99d2-1f1d23af15d7.gif" width="250"/> </p></details> |
+
+## Reconfiguring recorded alarms:
+
+|**Reconfigure - After Recording**|
+|:--------------------            |
+|press the floating button to begin |
+||
+|<details><summary>showcase</summary><p> <img src="https://user-images.githubusercontent.com/75115433/201287338-0f075bff-287f-4eb9-99d2-1f1d23af15d7.gif" width="250"/> </p></details> |
 
 <br><br><br>
 
