@@ -644,7 +644,7 @@ class DefaultChatBot extends BaseDbUserChatBot {  /* take the db save/store logi
         }
 
         if (data == 'exiter') {
-            return this.abort().replyText(__('reply.exit'))
+            return this.replyText(__('reply.exit'))
         }
 
     }
