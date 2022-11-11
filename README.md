@@ -7,17 +7,16 @@ id = 843ffueb
 <br><br>
 
 
-## Language features:
-|          |**Record Voice Alarm**|
+## Selecting language:
+|          |**Procedures**|
 |:--------:|:-----------------    |
 || 1. type in "lang" |
 || 2. navigate floating button |
 |*how to...*| <details><summary>select language</summary><p> <img src="https://user-images.githubusercontent.com/75115433/201319528-bf8d4167-d18c-4ce3-bb89-2aa80fc91515.gif" width="250"/> </p></details>|
 <br><br>
 
-## Setting up voice alarm procedures:
-
-|          |**Record Voice Alarm**|
+## Setting up voice alarm:
+|          |**Procedures**|
 |:--------:|:-----------------    |
 || 1. record voice message to start |
 || 2. pick a datetime for your voice alarm |
@@ -26,14 +25,16 @@ id = 843ffueb
 <br><br>
 
 ## View info about recorded alarms:
+#### after recording
 
-||**View - After Recording**|
+||**Procedures**|
 |:-:|:--------------------            |
 ||navigate floating button |
 |*how to...*|<details><summary>view</summary><p> <img src="https://user-images.githubusercontent.com/75115433/201311281-80f27a2f-33a2-4e89-8bc7-a08b2dfb493e.gif" width="250"/> </p></details> |
 <br>
 
-||**View - AlarmWatcher**|
+#### with AlarmWatcher
+||**Procedures**
 |:-:|:--------------------            |
 ||navigate floating button |
 |*how to...*|<details><summary>view all</summary><p> <img src="https://user-images.githubusercontent.com/75115433/201305840-256eb03b-add3-4fb7-a418-40a1c9a847ca.gif" width="250"/> </p></details> |
@@ -42,7 +43,7 @@ id = 843ffueb
 
 ## Reconfiguring recorded alarms:
 
-||**Reconfigure - After Recording**|
+||**Procedures**|
 |:-:|:--------------------            |
 ||1. navigate floating button |
 ||2. <li> press "Edit" to reassign timer for the voice alarm </li> <li>press "View" to listen to recorded voice alarm </li>|
@@ -50,21 +51,22 @@ id = 843ffueb
 <br><br>
 
 ## There's two ways to delete an alarm
-
-||**Cancel Alarm**|
+#### after recording
+||**Procedures**|
 |:--:|:----------------- |
 ||press "Cancel" after recording voice alarm <li>delete only that particular voice message you just recorded</li> |
 |*how to...*| <details><summary>cancel</summary><p> <img src="https://user-images.githubusercontent.com/75115433/201305918-d807419b-5be8-4100-b79a-c22cc3187603.gif" width="250"/>  <img src="https://user-images.githubusercontent.com/75115433/201287361-0631005a-957c-4d35-bb0d-63e4b0263306.gif" width="250"/> </p></details> |
 <br>
 
-||**Delete Alarm of Your Choice**|
+#### with AlarmDeleter
+||**Procedures**|
 |:---|:----------------- |
 ||press "Delete Alarms" icon on Richmenu <li> delete any alarms of your choice </li><li> delete all alarms  </li> |
 |*how to...*| <details><summary>delete</summary><p><img src="https://user-images.githubusercontent.com/75115433/201305821-6eb11701-9aaf-4782-aeb0-db792c1cdb87.gif" width="250"/>  </p></details> |
 |*how to...*| <details><summary>exit</summary><p> <img src="https://user-images.githubusercontent.com/75115433/201305833-c55cd141-b06a-4c73-a270-86387ac17679.gif" width="250"/>  </p></details> |
                                          
-### AlarmWatcher
+#### AlarmWatcher
 <img src="https://user-images.githubusercontent.com/75115433/201294976-fd948a9f-0465-43f2-904e-fb37d13e3b66.png" width="100"/>
 
-### AlarmDeleter
+#### AlarmDeleter
 <img src="https://user-images.githubusercontent.com/75115433/201294998-3a7157ff-0238-4150-8ba5-2a08d8bf5870.png" width="100"/>
