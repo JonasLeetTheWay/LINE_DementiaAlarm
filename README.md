@@ -43,20 +43,21 @@ For debugging, I prefer to emulate cloud functions locally, since the error logg
 
 Unfortunately, I did not write any test that catch bugs earlier. Rather than finding out the problem while trying out the LINE chatbot myself, I could have automate the test to Google Cloud Platform, and allow them to throw me error, so the bugs can be found earlier, avoid accumulating to a huge problem where multiple bugs exist.
 
+<details>
 <img src="https://user-images.githubusercontent.com/75115433/201413133-7f9e30ee-810b-43ca-950d-f51858fcfceb.png" width=500>
 
-
 <img src="https://user-images.githubusercontent.com/75115433/201413373-b1c13c22-5ab0-453e-b249-e1d30c06f24b.png" width=500>
+</details>
 
-
-
-
-Performed Restful API from LINE, to gain content and activity from user. 
+### Performed Restful API from LINE, to gain content and activity from user. 
 
 * Designed Line Chatbot user-interface and with the following message formats:
     * [Quick Replies](https://developers.line.biz/en/docs/messaging-api/using-quick-reply/#using-quick-reply-introduction)
     * [Flex Message](https://developers.line.biz/en/docs/messaging-api/using-flex-message-simulator/) (customizable message with pseudo CSS layout)
-Debugging with built-in Google Cloud Platform Logging Explorer
+
+
+
+
 
 
 <br><br><br><br><br><br><br><br><br>
@@ -79,7 +80,7 @@ Debugging with built-in Google Cloud Platform Logging Explorer
 
 
 ## View info about recorded alarms:
-#### after recording
+#### just after recording
 
 ||**Procedures**|
 |:-:|:--------------------            |
@@ -105,11 +106,11 @@ Debugging with built-in Google Cloud Platform Logging Explorer
 
 
 ## There's two ways to delete an alarm
-#### after recording
+#### just after recording
 ||**Procedures**|
 |:--:|:----------------- |
-||press "Cancel" after recording voice alarm <li>delete only that particular voice message you just recorded</li> |
-|*how to...*| <details><summary>cancel</summary><p> <img src="https://user-images.githubusercontent.com/75115433/201305918-d807419b-5be8-4100-b79a-c22cc3187603.gif" width="250"/>  <img src="https://user-images.githubusercontent.com/75115433/201287361-0631005a-957c-4d35-bb0d-63e4b0263306.gif" width="250"/> </p></details> |
+||press "Cancel" just after recording voice alarm <li>delete only that particular voice message you just recorded</li> |
+|*how to...*| <details><summary>cancel</summary><p> <img src="https://user-images.githubusercontent.com/75115433/201305918-d807419b-5be8-4100-b79a-c22cc3187603.gif" width="250"/>   </p></details> |
 
 
 #### with AlarmDeleter
