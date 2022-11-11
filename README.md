@@ -31,7 +31,7 @@ id = 843ffueb
 |:-:|:--------------------            |
 ||navigate floating button |
 |*how to...*|<details><summary>view</summary><p> <img src="https://user-images.githubusercontent.com/75115433/201311281-80f27a2f-33a2-4e89-8bc7-a08b2dfb493e.gif" width="250"/> </p></details> |
-<br>
+
 
 #### with AlarmWatcher
 ||**Procedures**
@@ -56,7 +56,7 @@ id = 843ffueb
 |:--:|:----------------- |
 ||press "Cancel" after recording voice alarm <li>delete only that particular voice message you just recorded</li> |
 |*how to...*| <details><summary>cancel</summary><p> <img src="https://user-images.githubusercontent.com/75115433/201305918-d807419b-5be8-4100-b79a-c22cc3187603.gif" width="250"/>  <img src="https://user-images.githubusercontent.com/75115433/201287361-0631005a-957c-4d35-bb0d-63e4b0263306.gif" width="250"/> </p></details> |
-<br>
+
 
 #### with AlarmDeleter
 ||**Procedures**|
