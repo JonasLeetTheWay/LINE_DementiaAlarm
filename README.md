@@ -10,17 +10,20 @@ ID = 843ffueb
 ![843ffueb](https://user-images.githubusercontent.com/75115433/201181405-bc23f1ce-d9d7-465f-8c1f-b47d76a80186.png)
 
 Setting up voice alarm procedures:
-1. Record voice message to start
-2. Pick a datetime for your voice alarm
+
+
+|**Record Voice Alarm**                   |**After Recording**                                                              |**Relative Error**|
+|:-----------------:                      |:--------------------:                                                           |:-----------------: |
+| 1. Record voice message to start        | 1. Received details about the alarm you just set                                ||
+| 2. Pick a datetime for your voice alarm | press the floating button to receive more complete data about alarm             ||
+|                                         | press "Edit" to reassign timer for the voice alarm                              ||
+|                                         | press "View" to listen to recorded voice alarm                                  ||
+
+
 <img src="https://user-images.githubusercontent.com/75115433/201287327-78389f5c-90a0-4f83-a563-c55163c43a50.gif" width="250"/>
+<img src="https://user-images.githubusercontent.com/75115433/201287338-0f075bff-287f-4eb9-99d2-1f1d23af15d7.gif" width="250"/>
 
-4. Received details about the alarm you just set
-> press the floating button to receive more complete data about alarm
-> press "Edit" to reassign timer for the voice alarm
-> press "View" to listen to recorded voice alarm
-> <img src="https://user-images.githubusercontent.com/75115433/201287338-0f075bff-287f-4eb9-99d2-1f1d23af15d7.gif" width="250"/>
-
-4. Wait for the alarm to trigger
+Wait for the alarm to trigger
 
 
 There's two ways to delete an alarm
