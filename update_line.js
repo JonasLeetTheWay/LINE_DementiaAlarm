@@ -5,7 +5,7 @@ const dotenv = require('dotenv');
 dotenv.config({ path: '.env' });
 
 const line = require("@line/bot-sdk");
-const channel_id = 1
+const channel_id = 0
 console.log(process.env.LINE_CLIENT_CHANNEL_TOKEN)
 const lineConfig = {
     "channelAccessToken": process.env.LINE_CLIENT_CHANNEL_TOKEN.split(",")[channel_id],
@@ -25,7 +25,7 @@ if (opt == 'local') {
 } else if (opt == 'deploy') {
     locally = false;
 } else {
-    throw new Error('fuck you you are wrong!');
+    throw new Error('you are wrong!');
 }
 const cloudFunctionName = 'LineMessAPI'
 async function runLocally(local = true) {

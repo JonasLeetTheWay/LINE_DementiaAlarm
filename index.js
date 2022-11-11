@@ -21,7 +21,7 @@ const { CloudTasksClient } = require('@google-cloud/tasks');
 const client_ct = new CloudTasksClient();
 
 ////////////////// LINE /////////////////////
-const channel_id = 1
+const channel_id = 0
 
 const line = require("@line/bot-sdk");
 const lineConfig = {
