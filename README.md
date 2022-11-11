@@ -3,19 +3,18 @@
 
 <img src="https://user-images.githubusercontent.com/75115433/201181405-bc23f1ce-d9d7-465f-8c1f-b47d76a80186.png" width="100"/>
 
-
-
-
-
-
-
-
-
-
-ID = 843ffueb
+id = 843ffueb
 <br><br>
 
-# Setting up voice alarm procedures:
+## Language features:
+|          |**Record Voice Alarm**|
+|:--------:|:-----------------    |
+|| 1. type in "lang" |
+|| 2. navigate floating button |
+|*how to...*| <details><summary>record</summary><p> <img src="https://user-images.githubusercontent.com/75115433/201287327-78389f5c-90a0-4f83-a563-c55163c43a50.gif" width="250"/> </p></details>|
+<br><br>
+
+## Setting up voice alarm procedures:
 
 |          |**Record Voice Alarm**|
 |:--------:|:-----------------    |
@@ -25,7 +24,7 @@ ID = 843ffueb
 |*how to...*| <details><summary>record</summary><p> <img src="https://user-images.githubusercontent.com/75115433/201287327-78389f5c-90a0-4f83-a563-c55163c43a50.gif" width="250"/> </p></details>|
 <br><br>
 
-# View info about recorded alarms:
+## View info about recorded alarms:
 
 ||**View - After Recording**|
 |:-:|:--------------------            |
@@ -40,7 +39,7 @@ ID = 843ffueb
 |*how to...*|<details><summary>view single</summary><p> <img src="https://user-images.githubusercontent.com/75115433/201311272-acf88cc9-9f11-485b-9c92-662af1d16f89.gif" width="250"/> </p></details>|
 <br><br>
 
-# Reconfiguring recorded alarms:
+## Reconfiguring recorded alarms:
 
 ||**Reconfigure - After Recording**|
 |:-:|:--------------------            |
@@ -49,7 +48,7 @@ ID = 843ffueb
 |*how to...*|<details><summary>reconfigure</summary><p> <img src="https://user-images.githubusercontent.com/75115433/201287338-0f075bff-287f-4eb9-99d2-1f1d23af15d7.gif" width="250"/> </p></details> |
 <br><br>
 
-# There's two ways to delete an alarm
+## There's two ways to delete an alarm
 
 ||**Cancel Alarm**|
 |:--:|:----------------- |
@@ -63,7 +62,8 @@ ID = 843ffueb
 |*how to...*| <details><summary>delete</summary><p><img src="https://user-images.githubusercontent.com/75115433/201305821-6eb11701-9aaf-4782-aeb0-db792c1cdb87.gif" width="250"/>  </p></details> |
 |*how to...*| <details><summary>exit</summary><p> <img src="https://user-images.githubusercontent.com/75115433/201305833-c55cd141-b06a-4c73-a270-86387ac17679.gif" width="250"/>  </p></details> |
                                          
-<details><summary>showcase</summary></p></details>
+### AlarmWatcher
+<img src="https://user-images.githubusercontent.com/75115433/201294976-fd948a9f-0465-43f2-904e-fb37d13e3b66.png" width="100"/>
 
-<img src="https://user-images.githubusercontent.com/75115433/201294976-fd948a9f-0465-43f2-904e-fb37d13e3b66.png" width="250"/>
-<img src="https://user-images.githubusercontent.com/75115433/201294998-3a7157ff-0238-4150-8ba5-2a08d8bf5870.png" width="250"/>
+### AlarmDeleter
+<img src="https://user-images.githubusercontent.com/75115433/201294998-3a7157ff-0238-4150-8ba5-2a08d8bf5870.png" width="100"/>
