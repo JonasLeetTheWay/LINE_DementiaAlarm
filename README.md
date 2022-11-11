@@ -12,7 +12,7 @@ id = 843ffueb
 |:--------:|:-----------------    |
 || 1. type in "lang" |
 || 2. navigate floating button |
-|*how to...*| <details><summary>record</summary><p> <img src="https://user-images.githubusercontent.com/75115433/201319528-bf8d4167-d18c-4ce3-bb89-2aa80fc91515.gif" width="250"/> </p></details>|
+|*how to...*| <details><summary>select language</summary><p> <img src="https://user-images.githubusercontent.com/75115433/201319528-bf8d4167-d18c-4ce3-bb89-2aa80fc91515.gif" width="250"/> </p></details>|
 <br><br>
 
 ## Setting up voice alarm procedures:
