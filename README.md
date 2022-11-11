@@ -1,6 +1,13 @@
 ## My Chatbot:
 
 <img src="https://user-images.githubusercontent.com/75115433/201181405-bc23f1ce-d9d7-465f-8c1f-b47d76a80186.png" width="100"/>
+![delete_with_cancel](https://user-images.githubusercontent.com/75115433/201305918-d807419b-5be8-4100-b79a-c22cc3187603.gif)
+
+![delete_with_AlarmDeleter](https://user-images.githubusercontent.com/75115433/201305821-6eb11701-9aaf-4782-aeb0-db792c1cdb87.gif)
+
+![exit_AlarmDeleter](https://user-images.githubusercontent.com/75115433/201305833-c55cd141-b06a-4c73-a270-86387ac17679.gif)
+
+![show_with_AlarmWatcher](https://user-images.githubusercontent.com/75115433/201305840-256eb03b-add3-4fb7-a418-40a1c9a847ca.gif)
 
 ID = 843ffueb
 <br><br><br>
