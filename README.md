@@ -117,7 +117,7 @@ https://liff.line.me/1645278921-kWRPP32q/?accountId=843ffueb
 
 ### Serverless Backend
 
-I've selected `Firebase` as the backend for 3 reasons:
+I've selected `Firebase` as the backend for 5 reasons:
 
 1. almost zero-downtime backend server (99.99% uptime)
 2. easier to set up and therefore `great for prototyping`
