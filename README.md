@@ -7,16 +7,12 @@ Your voice message in LINE can be directly broadcasted to the speaker, which can
 
 Please send feedback to us, so we can keep better our customer experience, deliver better service!
 
-<span style="display:block;text-align:center">
-
+<p align="center">
 <a href="https://liff.line.me/1645278921-kWRPP32q/?accountId=843ffueb">
 <img alt="Dementia Alarm Chatbot" src="https://user-images.githubusercontent.com/75115433/201181405-bc23f1ce-d9d7-465f-8c1f-b47d76a80186.png" width="100"/>
-</a>
-
+</a><br>
 https://liff.line.me/1645278921-kWRPP32q/?accountId=843ffueb
-
-
-</span>
+</p>
 
 > only software part of development is completed, the hardware part is still a work in progress - device to receive LINE voice message
 
@@ -24,7 +20,7 @@ https://liff.line.me/1645278921-kWRPP32q/?accountId=843ffueb
 
 <br><br>
 
-## User Interface
+### User Interface
 
 - menu
 
@@ -53,31 +49,21 @@ https://liff.line.me/1645278921-kWRPP32q/?accountId=843ffueb
 
 # Tutorials
                       
-<div>
-
+<p float='left'>
 <span style="display:inline-block; text-align:center">
-<img src="https://user-images.githubusercontent.com/75115433/201294998-3a7157ff-0238-4150-8ba5-2a08d8bf5870.png" width="70"/><br>
-
-#### AlarmWatcher
-
+<img src="https://user-images.githubusercontent.com/75115433/201294998-3a7157ff-0238-4150-8ba5-2a08d8bf5870.png" width="70"/><br>Alarm Watcher
 </span>
 <span style="display:inline-block;text-align:center; margin-left:20px">
 <img src="https://user-images.githubusercontent.com/75115433/201294976-fd948a9f-0465-43f2-904e-fb37d13e3b66.png" width="70"/>
-<br>
-
-#### AlarmDeleter
+<br>Alarm Deleter
 </span>
 </span>
 <span style="display:inline-block;text-align:center; margin-left:20px">
 <img src="https://user-images.githubusercontent.com/75115433/201469188-fd4d276b-493c-4fcc-996d-b489257caa50.png" width="70"/>
-<br>
-
-#### TaskManager
+<br> Task Manager
 </span>
 
-
-
-</div>
+</p>
 
 <br><br>
 
