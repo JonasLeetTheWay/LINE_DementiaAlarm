@@ -28,21 +28,21 @@ https://liff.line.me/1645278921-kWRPP32q/?accountId=843ffueb
 
 - floating button
 
-    <img src="https://user-images.githubusercontent.com/75115433/201467648-c9bb3b5f-f7ac-4e15-bb3c-3cf31b13ee1f.png" width=300>
+    <img src="https://user-images.githubusercontent.com/75115433/201467648-c9bb3b5f-f7ac-4e15-bb3c-3cf31b13ee1f.png" width=400>
     <br>
-    <img src="https://user-images.githubusercontent.com/75115433/201467649-bb4c953d-1a29-4449-8291-b543ceaf700c.jpg" width=300>
+    <img src="https://user-images.githubusercontent.com/75115433/201467649-bb4c953d-1a29-4449-8291-b543ceaf700c.jpg" width=400>
     <br>
-    <img src="https://user-images.githubusercontent.com/75115433/201467968-bfb08d3f-5137-47de-9fc2-5106a88802aa.jpeg" width=300>
+    <img src="https://user-images.githubusercontent.com/75115433/201467968-bfb08d3f-5137-47de-9fc2-5106a88802aa.jpeg" width=400>
     <br>
-    <img src="https://user-images.githubusercontent.com/75115433/201468430-797d7639-6a1e-4219-b3a9-ddb7b2338488.jpg" width=300>
+    <img src="https://user-images.githubusercontent.com/75115433/201468430-797d7639-6a1e-4219-b3a9-ddb7b2338488.jpg" width=400>
 
 - alarm info after recording
 
-    <img src="https://user-images.githubusercontent.com/75115433/201467644-9e5cb6c8-48b2-4db7-9868-0b66b9c9d22a.jpg" width=300>
+    <img src="https://user-images.githubusercontent.com/75115433/201467644-9e5cb6c8-48b2-4db7-9868-0b66b9c9d22a.jpg" width=400>
     <br>
-    <img src="https://user-images.githubusercontent.com/75115433/201467646-8143a2f2-eef9-464b-b337-571f789941e5.png" width=300>
+    <img src="https://user-images.githubusercontent.com/75115433/201467646-8143a2f2-eef9-464b-b337-571f789941e5.png" width=400>
     <br>
-    <img src="https://user-images.githubusercontent.com/75115433/201467647-61279def-73e1-46dd-890e-dfc8be705437.png" width=300>
+    <img src="https://user-images.githubusercontent.com/75115433/201467647-61279def-73e1-46dd-890e-dfc8be705437.png" width=400>
 
 ## Terminology
 |<img src="https://user-images.githubusercontent.com/75115433/201294998-3a7157ff-0238-4150-8ba5-2a08d8bf5870.png" width="70"/> |<img src="https://user-images.githubusercontent.com/75115433/201294976-fd948a9f-0465-43f2-904e-fb37d13e3b66.png" width="70"/>|<img src="https://user-images.githubusercontent.com/75115433/201469188-fd4d276b-493c-4fcc-996d-b489257caa50.png" width="70"/>|
