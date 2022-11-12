@@ -44,7 +44,7 @@ https://liff.line.me/1645278921-kWRPP32q/?accountId=843ffueb
     <br>
     <img src="https://user-images.githubusercontent.com/75115433/201467647-61279def-73e1-46dd-890e-dfc8be705437.png" width=350>
 
-## Terminology
+### Terminology
 |<img src="https://user-images.githubusercontent.com/75115433/201294998-3a7157ff-0238-4150-8ba5-2a08d8bf5870.png" width="70"/> |<img src="https://user-images.githubusercontent.com/75115433/201294976-fd948a9f-0465-43f2-904e-fb37d13e3b66.png" width="70"/>|<img src="https://user-images.githubusercontent.com/75115433/201469188-fd4d276b-493c-4fcc-996d-b489257caa50.png" width="70"/>|
 |:--------:|:--------:|:--------:|
 |Alarm Watcher|Alarm Deleter|Task Manager|
@@ -52,8 +52,9 @@ https://liff.line.me/1645278921-kWRPP32q/?accountId=843ffueb
 <br><br>
 
 # Tutorials
+> *there are many* ► *buttons below, press them to watch tutorial video*
 
-## Selecting language:
+### Selecting language:
 |          |**Procedures**|
 |:--------:|:-----------------    |
 || 1. type in "lang" |
@@ -61,7 +62,7 @@ https://liff.line.me/1645278921-kWRPP32q/?accountId=843ffueb
 |*how to...*| <details><summary>select language</summary><p> <img src="https://user-images.githubusercontent.com/75115433/201319528-bf8d4167-d18c-4ce3-bb89-2aa80fc91515.gif" width="250"/> </p></details>|
 
 
-## Setting up voice alarm:
+### Setting up voice alarm:
 |          |**Procedures**|
 |:--------:|:-----------------    |
 || 1. record voice message to start |
@@ -70,8 +71,8 @@ https://liff.line.me/1645278921-kWRPP32q/?accountId=843ffueb
 |*how to...*| <details><summary>record</summary><p> <img src="https://user-images.githubusercontent.com/75115433/201287327-78389f5c-90a0-4f83-a563-c55163c43a50.gif" width="250"/> </p></details>|
 
 
-## View info about recorded alarms:
-#### just after recording
+### View info about recorded alarms:
+##### just after recording
 
 ||**Procedures**|
 |:-:|:--------------------            |
@@ -79,7 +80,7 @@ https://liff.line.me/1645278921-kWRPP32q/?accountId=843ffueb
 |*how to...*|<details><summary>view</summary><p> <img src="https://user-images.githubusercontent.com/75115433/201311281-80f27a2f-33a2-4e89-8bc7-a08b2dfb493e.gif" width="250"/> </p></details> |
 
 
-#### with AlarmWatcher
+##### with AlarmWatcher
 ||**Procedures**
 |:-:|:--------------------            |
 ||navigate floating button |
@@ -87,7 +88,7 @@ https://liff.line.me/1645278921-kWRPP32q/?accountId=843ffueb
 |*how to...*|<details><summary>view single</summary><p> <img src="https://user-images.githubusercontent.com/75115433/201311272-acf88cc9-9f11-485b-9c92-662af1d16f89.gif" width="250"/> </p></details>|
 
 
-## Reconfiguring recorded alarms:
+### Reconfiguring recorded alarms:
 
 ||**Procedures**|
 |:-:|:--------------------            |
@@ -96,15 +97,15 @@ https://liff.line.me/1645278921-kWRPP32q/?accountId=843ffueb
 |*how to...*|<details><summary>reconfigure</summary><p> <img src="https://user-images.githubusercontent.com/75115433/201287338-0f075bff-287f-4eb9-99d2-1f1d23af15d7.gif" width="250"/> </p></details> |
 
 
-## There's two ways to delete an alarm
-#### just after recording
+### There's two ways to delete an alarm
+##### just after recording
 ||**Procedures**|
 |:--:|:----------------- |
 ||press "Cancel" just after recording voice alarm <li>delete only that particular voice message you just recorded</li> |
 |*how to...*| <details><summary>cancel</summary><p> <img src="https://user-images.githubusercontent.com/75115433/201305918-d807419b-5be8-4100-b79a-c22cc3187603.gif" width="250"/>   </p></details> |
 
 
-#### with AlarmDeleter
+##### with AlarmDeleter
 ||**Procedures**|
 |:---|:----------------- |
 ||press "Delete Alarms" icon on Richmenu <li> delete any alarms of your choice </li><li> delete all alarms  </li> |
@@ -113,7 +114,7 @@ https://liff.line.me/1645278921-kWRPP32q/?accountId=843ffueb
 
 <br><br><br>
 
-## Project Structure:
+# Project Structure:
 
 ### Serverless Backend
 
