@@ -7,16 +7,20 @@ Your voice message in LINE can be directly broadcasted to the speaker, which can
 
 Please send feedback to us, so we can keep better our customer experience, deliver better service!
 
-<p align="center">
+> only software part of development is completed, the hardware part is still a work in progress - device to receive LINE voice message
+
+> it is designed to work on smartphones only, certain features will not work on LINE desktop app
+
+<br><br>
+
+### Using Chatbot
+
+Scan the QRCode below or search with LINE ID to use it.
+
 <a href="https://liff.line.me/1645278921-kWRPP32q/?accountId=843ffueb">
 <img alt="Dementia Alarm Chatbot" src="https://user-images.githubusercontent.com/75115433/201181405-bc23f1ce-d9d7-465f-8c1f-b47d76a80186.png" width="100"/>
 </a><br>
 https://liff.line.me/1645278921-kWRPP32q/?accountId=843ffueb
-</p>
-
-> only software part of development is completed, the hardware part is still a work in progress - device to receive LINE voice message
-
-> it is designed to work on smartphones only, certain features will not work on LINE desktop app
 
 <br><br>
 
